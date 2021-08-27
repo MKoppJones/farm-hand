@@ -1,6 +1,12 @@
 import pygame
-from lib.constants import DISPLAY_SIZE, TILE_SIZE
+from lib.constants import DISPLAY_SIZE, TILE_SIZE, Colors
 from lib.map import Map, MapCursor
+
+class UI:
+    def draw(self, window):
+        drawer = pygame.Surface((TILE_SIZE * 25, DISPLAY_SIZE[1]))
+        drawer.fill(Colors.WHITE)
+        window.blit(drawer, (DISPLAY_SIZE[0] - TILE_SIZE * 25, 0 ))
 
 class Game:
     def __init__(self):
@@ -18,7 +24,7 @@ class Game:
         self.game_map: Map = Map(file_path=farm_file, cursor=self.map_cursor)
         
     def game_loop(self):
-        
+        ui = UI()
         while self.is_running:
             self.map_cursor.update()
             for event in pygame.event.get():
@@ -29,6 +35,7 @@ class Game:
             
             self.game_map.draw(self.window)
             self.map_cursor.draw(self.window)
+            ui.draw(self.window)
             
             pygame.display.update()
             self.clock.tick(60)

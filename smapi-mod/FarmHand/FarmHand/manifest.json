@@ -1,0 +1,10 @@
+{
+  "Name": "Farm Hand",
+  "Author": "smwddio",
+  "Version": "1.0.0",
+  "Description": "",
+  "UniqueID": "smwddio.FarmHand",
+  "EntryDll": "FarmHand.dll",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": []
+}

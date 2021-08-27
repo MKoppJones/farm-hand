@@ -1,0 +1,8 @@
+C:\dev\mods\farm-hand\smapi-mod\FarmHand\FarmHand\bin\Debug\FarmHand.dll
+C:\dev\mods\farm-hand\smapi-mod\FarmHand\FarmHand\bin\Debug\FarmHand.pdb
+C:\dev\mods\farm-hand\smapi-mod\FarmHand\FarmHand\obj\Debug\FarmHand.csproj.AssemblyReference.cache
+C:\dev\mods\farm-hand\smapi-mod\FarmHand\FarmHand\obj\Debug\FarmHand.csproj.CoreCompileInputs.cache
+C:\dev\mods\farm-hand\smapi-mod\FarmHand\FarmHand\obj\Debug\FarmHand.dll
+C:\dev\mods\farm-hand\smapi-mod\FarmHand\FarmHand\obj\Debug\FarmHand.pdb
+C:\dev\mods\farm-hand\smapi-mod\FarmHand\FarmHand\bin\Debug\0Harmony.dll
+C:\dev\mods\farm-hand\smapi-mod\FarmHand\FarmHand\obj\Debug\FarmHand.csproj.CopyComplete
